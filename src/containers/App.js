@@ -6,9 +6,13 @@ import {
 import NavBar from '../components/NavBar';
 import MoviesPage from './MoviesPage';
 
+
+///The movies prop has been passed from App to MoviesPage, then again to MoviesList
 class App extends Component {
 
   state = {
+    //movies prop
+    //is an object containing each movie 
     movies: {
       1: { id: 1, title: 'A River Runs Through It' },
       2: { id: 2, title: 'Se7en' },
